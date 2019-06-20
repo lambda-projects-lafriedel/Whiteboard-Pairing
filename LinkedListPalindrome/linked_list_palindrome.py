@@ -21,7 +21,7 @@ def isLinkedListPalindrome(node):
             traversing = traversing.next_node
         else:
              break
-    
+    print(stack)
     while len(stack) > 0:
       comparer = stack.pop()
       if node.value == comparer:
